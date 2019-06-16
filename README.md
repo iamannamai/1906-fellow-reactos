@@ -10,7 +10,7 @@
 ## Practicing Algos
 
 - **REACTOS** - Pairs can be assigned each week, but the pair can self organize around _when_ they want to do their REACTOS. Questions are provided as starting points.
-  - _Suggestion/Optional_: Interviewers can create gists in preparation of walking through questions with their interviewees. These gists can look like the REACTOs delivered in Senior Phase, but at minimum should probably include:
+  - _Suggestion/Optional_: Interviewers _can_ create gists in preparation of walking through questions with their interviewees. These gists can look like the REACTOs delivered in Senior Phase, but at minimum should probably include:
     - Question
     - Examples/Test Cases
     - Hints (taken from CtCI, or provided)
@@ -29,13 +29,13 @@
 
 #### REACTOS
 
-- 1.5: One Away (aka simpler Levenshtein Distance)
+- **1.5 One Away**
 
   <details>
   There are three types of edits that can be performed on strings: insert a character, remove a character, or replace a character. Given two strings, write a function to check if they are one edit (or zero edits) away.
     <details><summary>Hints</summary>
 
-      - #23: Start with the easy thing. Can you check each of the conditions separately?
+      - #23: Start simple. Can you check each of the conditions separately?
       - #97: What is the relationship between "insert" and "remove"? Do they need to be two separate checks?
       - #130: Can you do all three checks in a single pass?
 
@@ -45,7 +45,7 @@
   - **Solutions**: [CtCI JS](https://github.com/careercup/CtCI-6th-Edition-JavaScript/blob/master/chapter01/1.5%20-%20OneAway/oneAway.js) | [CtCI ES2015](https://github.com/careercup/CtCI-6th-Edition-JavaScript-ES2015/blob/master/src/chapter1/ch1-q5.js)
   - **Gists**: N/A
 
-- 1.7 Rotate Matrix (aka Rotate Image)
+- **1.7 Rotate Matrix (aka Rotate Image)**
 
   <details>
   Given an image represented by an NxN matrix, where each pixel in the image is 4 bytes, write a method to rotate the image by 90 degrees. Can you do this in place?
@@ -57,17 +57,19 @@
     </details>
   </details>
 
-  - **Solutions**: [CtCI JS](https://github.com/careercup/CtCI-6th-Edition-JavaScript/blob/master/chapter01/1.7%20-%20Rotate%20Matrix/rotateMatrix.js) | [CtCI ES2015](https://github.com/careercup/CtCI-6th-Edition-JavaScript-ES2015/blob/master/src/chapter1/ch1-q7.js)
-  - **Gists** - N/A
+  - Solutions: [CtCI JS](https://github.com/careercup/CtCI-6th-Edition-JavaScript/blob/master/chapter01/1.7%20-%20Rotate%20Matrix/rotateMatrix.js) | [CtCI ES2015](https://github.com/careercup/CtCI-6th-Edition-JavaScript-ES2015/blob/master/src/chapter1/ch1-q7.js)
+  - Gists - N/A
+  - [LeetCode](https://leetcode.com/problems/rotate-image/)
 
-- 1.9 String Rotation
+- **1.8 Zero Matrix**
 
   <details>
-  Assume you have a method `isSubstring` which checks if one word is a substring of another. Given two strings, `s1` and `s2`, write code to check if `s2` is a rotation of `s1` using only one call to isSubstring (e.g., `"waterbottle"` is a rotation of `"erbottlewat"`)
+  Write an algorithm such that if an element in an MxN matrix is 0, its entire row and column are set to 0
 
     <details><summary>Hints</summary>
-
-      - #104: Think about the earlier hint. Then think about what happens when you concatenate `erbottlewat` to itself.
+      - #17 - Transforming the matrix as you encounter 0s would clear out the entire matrix. What can you do instead?
+      - #74 - Can you minimize the additional space needed to `O(N)`? What information do you actually need to figure out the new matrix?
+      - #102 - Can you further minimize the additional storage needed to `O(1)` by mutating the input?
 
     </details>
 
@@ -75,6 +77,7 @@
 
   - **Solutions**: [CtCI JS](https://github.com/careercup/CtCI-6th-Edition-JavaScript/blob/master/chapter01/1.9%20-%20String%20Rotation/stringRotation.js) | [CtCI ES2015](https://github.com/careercup/CtCI-6th-Edition-JavaScript-ES2015/blob/master/src/chapter1/ch1-q9.js)
   - **Gists**: N/A
+  - [LeetCode](https://leetcode.com/problems/set-matrix-zeroes/)
 
 #### MOB
 
