@@ -5,11 +5,12 @@
 - Refer to the [CtCI JS repo](https://github.com/careercup/CtCI-6th-Edition-JavaScript) for solutions to additional problems
 - [CtCI ES2015](https://github.com/careercup/CtCI-6th-Edition-JavaScript-ES2015) for most up-to-date syntax
 - Solutions can also sometimes be found in the [FSA Technical Interview Prep Repo](https://github.com/FullstackAcademy/technical-interview-prep/)
+- [GIST TEMPLATE](https://github.com/FullstackAcademy/technical-interview-prep/blob/master/algorithms/reacto-template.md)
 
 ## Practicing Algos
 
 - **REACTOS** - Pairs can be assigned each week, but the pair can self organize around _when_ they want to do their REACTOS. Questions are provided as starting points.
-  - _Suggestion_: Interviewers can create gists in preparation of walking through questions with their interviewees. These gists can look like the REACTOs delivered in Senior Phase, but at minimum should probably include:
+  - _Suggestion/Optional_: Interviewers can create gists in preparation of walking through questions with their interviewees. These gists can look like the REACTOs delivered in Senior Phase, but at minimum should probably include:
     - Question
     - Examples/Test Cases
     - Hints (taken from CtCI, or provided)
@@ -109,7 +110,7 @@
 
 ### Week 3: Trees and Graphs
 
-### Week 4: Bit Manipulation & Math and Logic Puzzles
+### Week 4: Bit Manipulation / Math and Logic Puzzles
 
 ### Week 5: Object Oriented Design / Databases
 
