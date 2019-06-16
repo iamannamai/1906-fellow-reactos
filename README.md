@@ -3,6 +3,7 @@
 ## Resources
 
 - Refer to the [CtCI JS repo](https://github.com/careercup/CtCI-6th-Edition-JavaScript) for solutions to additional problems
+- [CtCI ES2015](https://github.com/careercup/CtCI-6th-Edition-JavaScript-ES2015) for most up-to-date syntax
 - Solutions can also sometimes be found in the [FSA Technical Interview Prep Repo](https://github.com/FullstackAcademy/technical-interview-prep/)
 
 ## Practicing Algos
@@ -30,6 +31,11 @@
 - 1.5: One Away (aka simpler Levenshtein Distance)
   <details>
   There are three types of edits that can be performed on strings: insert a character, remove a character, or replace a character. Given two strings, write a function to check if they are one edit (or zero edits) away.
+  - Solutions:
+    - [CtCI JS](https://github.com/careercup/CtCI-6th-Edition-JavaScript/blob/master/chapter01/1.5%20-%20OneAway/oneAway.js)
+    - [CtCI ES2015](https://github.com/careercup/CtCI-6th-Edition-JavaScript-ES2015/blob/master/src/chapter1/ch1-q5.js)
+  - Gists:
+    - N/A
     <details><summary>Hints</summary>
       - #23: Start with the easy thing. Can you check each of the conditions separately?
       - #97: What is the relationship between "insert" and "remove"? Do they need to be two separate checks?
@@ -39,6 +45,11 @@
 - 1.7 Rotate Matrix (aka Rotate Image)
   <details>
   Given an image represented by an NxN matrix, where each pixel in the image is 4 bytes, write a method to rotate the image by 90 degrees. Can you do this in place?
+  - Solutions:
+    - [CtCI JS](https://github.com/careercup/CtCI-6th-Edition-JavaScript/blob/master/chapter01/1.7%20-%20Rotate%20Matrix/rotateMatrix.js)
+    - [CtCI ES2015](https://github.com/careercup/CtCI-6th-Edition-JavaScript-ES2015/blob/master/src/chapter1/ch1-q7.js)
+  - Gists:
+    - N/A
     <details><summary>Hints</summary>
       - #51: Try thinking about it layer by layer. Can you rotate a specific layer?
       - #100: Rotating a layer means swapping the layer in 4 arrays. Could you swap the values in 2 arrays? Could you extend this to 4?
@@ -47,9 +58,12 @@
 - 1.9 String Rotation
   <details>
   There are three types of edits that can be performed on strings: insert a character, remove a character, or replace a character. Given two strings, write a function to check if they are one edit (or zero edits) away.
+  - Solutions:
+    - [CtCI JS](https://github.com/careercup/CtCI-6th-Edition-JavaScript/blob/master/chapter01/1.9%20-%20String%20Rotation/stringRotation.js)
+    - [CtCI ES2015](https://github.com/careercup/CtCI-6th-Edition-JavaScript-ES2015/blob/master/src/chapter1/ch1-q9.js)
+  - Gists:
+    - N/A
     <details><summary>Hints</summary>
-      - #34:
-      - #88:
       - #104: Think about the earlier hint. Then think about what happens when you concatenate `erbottlewat` to itself.
     </details>
   </details>
