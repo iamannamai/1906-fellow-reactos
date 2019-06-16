@@ -63,7 +63,7 @@
 - 1.9 String Rotation
 
   <details>
-  There are three types of edits that can be performed on strings: insert a character, remove a character, or replace a character. Given two strings, write a function to check if they are one edit (or zero edits) away.
+  Assume you have a method `isSubstring` which checks if one word is a substring of another. Given two strings, `s1` and `s2`, write code to check if `s2` is a rotation of `s1` using only one call to isSubstring (e.g., `"waterbottle"` is a rotation of `"erbottlewat"`)
 
     <details><summary>Hints</summary>
 
