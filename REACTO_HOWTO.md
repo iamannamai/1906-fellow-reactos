@@ -2,12 +2,12 @@
 
 You know the drill. Get to it. But in case you're looking for how to be a better interviewer/interviewee, read on for tips taken from CtCI and the FS Tech Interview Repo.
 
-**R** - Repeat
-**E** - Example
-**A** - Approach
-**C** - Code
-**T** - Test
-**O** - Optimize
+- **R** - Repeat
+- **E** - Example
+- **A** - Approach
+- **C** - Code
+- **T** - Test
+- **O** - Optimize
 
 ## Interviewee
 

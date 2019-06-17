@@ -90,24 +90,15 @@
 
 <details>
 
-#### Techniques to Keep in Mind
+#### Notes on Chapter
 
 <details>
 
-**Linked Lists**
+Notes on the following data structures covered in this chapter can be found at [DS_AND_TECHNIQUES.md](DS_AND_TECHNIQUES.md).
 
-- "Runner" Technique
-- Recursion common in linked list problems
-
-**Stacks**
-
-- Recursive problems may use stacks to store data (push and then pop on the way out)
-- Stacks can be used to implement recursive solutions iteratively
-
-**Queues**
-
-- Breadth-first searches
-- Implementing caches
+- Linked Lists
+- Stacks
+- Queues
 
 </details>
 
@@ -129,7 +120,7 @@
 
   - **Solutions**: [CtCI JS](https://github.com/careercup/CtCI-6th-Edition-JavaScript/blob/master/chapter02/2.2%20-%20Return%20Kth%20to%20Last/returnKthToLast.js) | [CtCI ES2015](https://github.com/careercup/CtCI-6th-Edition-JavaScript-ES2015/blob/master/src/chapter2/ch2-q2.js)
   - **Gists**: N/A
-  - [AlgoExpert](https://www.algoexpert.io/questions/Remove%20Kth%20Node%20From%20End) - Mostly the same question
+  - [AlgoExpert](https://www.algoexpert.io/questions/Remove%20Kth%20Node%20From%20End) | [LeetCode](https://leetcode.com/problems/merge-k-sorted-lists/) - Mostly the same question
 
 - **3.4 Queue via Stacks**
 
@@ -169,7 +160,86 @@
 
 ### Week 3: Trees and Graphs
 
-- Merge K Sorted Lists
+<details>
+
+#### Notes on Chapter
+
+<details>
+
+Notes on the following data structures covered in this chapter can be found at [DS_AND_TECHNIQUES.md](DS_AND_TECHNIQUES.md).
+
+- Trees
+- Binary Tree Traversal
+- Binary Heaps
+- Graphs
+
+</details>
+
+#### REACTOS
+
+- **4.3 List of Depths**
+
+  <details>
+  Create a linked list of all the nodes at each depth of a binary tree. If you have a tree with depth D, you will have D linked lists.
+    <details><summary>Hints</summary>
+
+      - #107 - Try modifying a graph search algorithm to track the depth from the root
+      - #123 - A hash table or array that maps from level number to nodes at that level might also be useful
+      - #135 - You should be able to come up with an algorithm involving both DFS and BFS
+
+    </details>
+  </details>
+
+  - Solutions: [CtCI JS](https://github.com/careercup/CtCI-6th-Edition-JavaScript/blob/master/chapter04/4.03%20-%20List%20of%20Depths/listOfDepths.js) | [CtCI ES2015](https://github.com/careercup/CtCI-6th-Edition-JavaScript-ES2015/blob/master/src/chapter4/ch4-q03.js)
+  - Gists: N/A
+
+- **4.4 Check Balanced**
+
+  <details>
+  Implement a function to check if a binary tree is balanced. Balanced refers to a tree such that the heights of the two subtrees of any node never differs by more than one.
+    <details><summary>Hints</summary>
+
+      - #21 - Can you check the condition for a balanced tree for a single node? How about every node?
+      - #33 - Computing the height of a subtree for each node might be fairly inefficient. What is the runtime for a brute force approach?
+      - #49 & #105 - What if you could access the height of a node's subtree AND compute whether the node is balanced
+      - #124 - Consider a helper function to check the height and balance of a node
+
+    </details>
+  </details>
+
+  - Solutions: [CtCI JS](https://github.com/careercup/CtCI-6th-Edition-JavaScript/blob/master/chapter04/4.04%20-%20Check%20Balanced/checkBalanced.js) | [CtCI ES2015](https://github.com/careercup/CtCI-6th-Edition-JavaScript-ES2015/blob/master/src/chapter4/ch4-q04.js)
+  - Gists: N/A
+  - [LeetCode](https://leetcode.com/problems/balanced-binary-tree/)
+
+- **4.7 Build Order**
+
+  <details>
+    Given a list of projects and dependencies, where a dependency is an array of pairs where the first project of the pair is dependent on the second project, find a build order that will allow the projects to be built. Return an error if there is no valid build order. All of a project's dependencies must be build before the project is. Ex:
+
+  - projects: `a, b, c, d, e, f`
+  - dependencies: (a, d), (f, b), (b, d), (f, a), (d, c)
+  - output: `f, e, a, b, d, c`
+
+    <details><summary>Hints</summary>
+
+    - #26 - What data structure could you use to represent your dependencies? (consider a directed graph where each node is a project that lists the projects that it is a dependency of)
+    - #47 & #60 - Nodes without any incoming edges can be built first. How do you find this node? Where do you go from here?
+    - #85 - Once you decide to build a node, its outgoing edge can be deleted. How do you find other/the next node(s)?
+    - #125 & #133 - Taking a completely different direction, what would a DFS from a completely arbitrary node give you? What is the last node? What about the nodes before it?
+
+    </details>
+
+    - Solutions: [CtCI JS](https://github.com/careercup/CtCI-6th-Edition-JavaScript/blob/master/chapter04/4.07%20-%20Build%20Order/buildOrder.js) | [CtCI ES2015](https://github.com/careercup/CtCI-6th-Edition-JavaScript-ES2015/blob/master/src/chapter4/ch4-q07.js)
+    - Gists: N/A
+
+  </details>
+
+#### MOB
+
+- Merge K Sorted Lists ([LeetCode](https://leetcode.com/problems/merge-k-sorted-lists/))
+- 17.12 BiNode ([LeetCode](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/))
+
+</details>
 
 ### Week 4: Bit Manipulation / Math and Logic Puzzles
 
