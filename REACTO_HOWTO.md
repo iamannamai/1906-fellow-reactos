@@ -26,4 +26,4 @@ You know the drill. Get to it. But in case you're looking for how to be a better
 
 ## Both
 
-- Take some time afterward to summarize key concepts/strategies used during the REACTO to really reinforce the patterns seen
+- Take some time afterward to summarize key concepts/strategies used during the REACTO to really reinforce the patterns seen.
