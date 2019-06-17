@@ -136,12 +136,9 @@
   <details>
     Create a `MyQueue` class that implements a queue using two stacks.
       <details><summary>Hints</summary>
-
-      - #98 - How could you remove the oldest item from a stack if you only had access to the newest item?
-      - #114 - We can remove the oldest item from a stack by pushing everything into a new stack, and then pushing everything back. What is the time complexity of an operation like this?
-
+        - #98 - How could you remove the oldest item from a stack if you only had access to the newest item?
+        - #114 - We can remove the oldest item from a stack by pushing everything into a new stack, and then pushing everything back. What is the time complexity of an operation like this?
       </details>
-
   </details>
 
   - **Solutions**: [CtCI JS](https://github.com/careercup/CtCI-6th-Edition-JavaScript/blob/master/chapter03/3.4%20-%20Queue%20via%20Stacks/queueViaStacks.js) | [CtCI ES2015](https://github.com/careercup/CtCI-6th-Edition-JavaScript-ES2015/blob/master/src/chapter3/ch3-q4.js)
@@ -153,9 +150,9 @@
   Given an arithmetic equation consisting of positive integers and operations `+ - * /` (no parentheses), return the result.
   Ex. `2*3+5/6*3+15` returns `23.5`
     <details><summary>Hints</summary>
-    - #520 - Can we simply go from left to right? Why/why not?
-    - #623 & #664 - How would you prioritize your operators?
-    - #697 - Consider maintaining separate stacks for your operators and numbers. When would you push/pop from these stacks?
+      - #520 - Can we simply go from left to right? Why/why not?
+      - #623 & #664 - How would you prioritize your operators?
+      - #697 - Consider maintaining separate stacks for your operators and numbers. When would you push/pop from these stacks?
     </details>
   </details>
 
