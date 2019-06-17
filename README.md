@@ -147,8 +147,8 @@
 - **16.26 Calculator**
 
   <details>
-  Given an arithmetic equation consisting of positive integers and operations `+ - * /` (no parentheses), return the result.
-  Ex. `2*3+5/6*3+15` returns `23.5`
+    Given an arithmetic equation consisting of positive integers and operations `+ - * /` (no parentheses), return the result.
+    Ex. `2*3+5/6*3+15` returns `23.5`
     <details><summary>Hints</summary>
       - #520 - Can we simply go from left to right? Why/why not?
       - #623 & #664 - How would you prioritize your operators?
@@ -161,9 +161,9 @@
 
 #### MOB
 
-- 2.7 Intersection ([LeetCode](https://leetcode.com/problems/intersection-of-two-linked-lists/))
 - 2.8 Loop Detection ([LeetCode](https://leetcode.com/problems/linked-list-cycle-ii/))
 - 2.6 Palindrome (if you've already seen Loop Detection)
+- 17.9 Kth Multiple
 
 </details>
 
