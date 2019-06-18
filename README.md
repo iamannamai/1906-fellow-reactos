@@ -57,8 +57,8 @@
     </details>
   </details>
 
-  - Solutions: [CtCI JS](https://github.com/careercup/CtCI-6th-Edition-JavaScript/blob/master/chapter01/1.7%20-%20Rotate%20Matrix/rotateMatrix.js) | [CtCI ES2015](https://github.com/careercup/CtCI-6th-Edition-JavaScript-ES2015/blob/master/src/chapter1/ch1-q7.js)
-  - Gists - N/A
+  - **Solutions:** [CtCI JS](https://github.com/careercup/CtCI-6th-Edition-JavaScript/blob/master/chapter01/1.7%20-%20Rotate%20Matrix/rotateMatrix.js) | [CtCI ES2015](https://github.com/careercup/CtCI-6th-Edition-JavaScript-ES2015/blob/master/src/chapter1/ch1-q7.js)
+  - **Gists** - N/A
   - [LeetCode](https://leetcode.com/problems/rotate-image/)
 
 - **1.8 Zero Matrix**
@@ -190,8 +190,8 @@ Notes on the following data structures covered in this chapter can be found at [
     </details>
   </details>
 
-  - Solutions: [CtCI JS](https://github.com/careercup/CtCI-6th-Edition-JavaScript/blob/master/chapter04/4.03%20-%20List%20of%20Depths/listOfDepths.js) | [CtCI ES2015](https://github.com/careercup/CtCI-6th-Edition-JavaScript-ES2015/blob/master/src/chapter4/ch4-q03.js)
-  - Gists: N/A
+  - **Solutions:** [CtCI JS](https://github.com/careercup/CtCI-6th-Edition-JavaScript/blob/master/chapter04/4.03%20-%20List%20of%20Depths/listOfDepths.js) | [CtCI ES2015](https://github.com/careercup/CtCI-6th-Edition-JavaScript-ES2015/blob/master/src/chapter4/ch4-q03.js)
+  - **Gists:** N/A
 
 - **4.4 Check Balanced**
 
@@ -207,8 +207,8 @@ Notes on the following data structures covered in this chapter can be found at [
     </details>
   </details>
 
-  - Solutions: [CtCI JS](https://github.com/careercup/CtCI-6th-Edition-JavaScript/blob/master/chapter04/4.04%20-%20Check%20Balanced/checkBalanced.js) | [CtCI ES2015](https://github.com/careercup/CtCI-6th-Edition-JavaScript-ES2015/blob/master/src/chapter4/ch4-q04.js)
-  - Gists: N/A
+  - **Solutions:** [CtCI JS](https://github.com/careercup/CtCI-6th-Edition-JavaScript/blob/master/chapter04/4.04%20-%20Check%20Balanced/checkBalanced.js) | [CtCI ES2015](https://github.com/careercup/CtCI-6th-Edition-JavaScript-ES2015/blob/master/src/chapter4/ch4-q04.js)
+  - **Gists:** N/A
   - [LeetCode](https://leetcode.com/problems/balanced-binary-tree/)
 
 - **4.7 Build Order**
@@ -229,8 +229,8 @@ Notes on the following data structures covered in this chapter can be found at [
 
     </details>
 
-    - Solutions: [CtCI JS](https://github.com/careercup/CtCI-6th-Edition-JavaScript/blob/master/chapter04/4.07%20-%20Build%20Order/buildOrder.js) | [CtCI ES2015](https://github.com/careercup/CtCI-6th-Edition-JavaScript-ES2015/blob/master/src/chapter4/ch4-q07.js)
-    - Gists: N/A
+    - **Solutions:** [CtCI JS](https://github.com/careercup/CtCI-6th-Edition-JavaScript/blob/master/chapter04/4.07%20-%20Build%20Order/buildOrder.js) | [CtCI ES2015](https://github.com/careercup/CtCI-6th-Edition-JavaScript-ES2015/blob/master/src/chapter4/ch4-q07.js)
+    - **Gists:** N/A
 
   </details>
 
@@ -243,10 +243,86 @@ Notes on the following data structures covered in this chapter can be found at [
 
 ### Week 4: Bit Manipulation / Math and Logic Puzzles
 
+<details>
+
+#### Notes From Chapters
+
+- Review bit logic `& | ^ >> << ~`
+- Sieve of Erastosthenes (for generating a list of primes)
+- Probability
+- Independence !== Mutual Exclusivity
+
+#### REACTOS
+
+- **5.6 Conversion**
+
+- **5.8 Draw Line**
+
+- **6.10 Poison**
+
+#### MOB
+
+- 16.5 Factorial Zeros
+- 16.7 Number Max
+
+</details>
+
 ### Week 5: Object Oriented Design / Databases
+
+<details>
+
+#### Notes on Chapter
+
+Most of this week will be theoretical/discussion-based.
+
+- When handling Object Oriented Design questions, ask who is using it and how
+- Define core objects in the system
+- Analyze the relationships in your system
+- What actions can be taken (methods)
+- Design Patterns
+  - Singleton Class - can only have one instance of a class
+  - Factory Method - create many instances from a template/class
+
+#### REACTOS
+
+- **7.1 Deck of Cards**
+- **7.10 Minesweeper**
+- **14.1 - 14.5 SQL Practice & Normalization**
+
+#### MOB
+
+- 7.4 Parking Lot
+- 14.7 Design Grade Database
+
+</details>
 
 ### Week 6: Recursion and Dynamic Programming
 
 ### Week 7: System Design and Scalability
+
+<details>
+Most of this week will be theoretical/discussion-based.
+
+#### Notes From Chapter
+
+Consider taking some time this week to read the chapter. It will be lengthy, but given the minimal exposure we've had to the topic, should be very good for providing a foundation for being able to speak on the topic should it ever come up.
+
+**Additional Resources**
+
+- Grokking the System Design Interview
+
+#### REACTOS
+
+- **7.7 Chat Server**
+- **9.1 Stock Data**
+- **9.5 Cache**
+- **9.6 Sales Rank**
+
+#### MOB
+
+- **9.2 Social Network**
+- **9.7 Personal Finance Manager**
+
+</details>
 
 ### Week 8: Sorting and Searching
