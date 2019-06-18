@@ -305,13 +305,15 @@ Most of this week will be theoretical/discussion-based.
 
 #### Notes From Chapter
 
-Consider taking some time this week to read the chapter. It will be lengthy, but given the minimal exposure we've had to the topic, should be very good for providing a foundation for being able to speak on the topic should it ever come up.
+Consider taking some time this week to read the chapter. It will be lengthy, but given the minimal exposure we've had to the topic, should be good for at least providing a foundation for being able to speak on the it should it ever come up.
 
 **Additional Resources**
 
 - Grokking the System Design Interview
 
 #### REACTOS
+
+Pick 2 this week
 
 - **7.7 Chat Server**
 - **9.1 Stock Data**
